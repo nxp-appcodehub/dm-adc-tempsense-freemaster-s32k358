@@ -15,11 +15,18 @@
 			<member name="mapfile_list" type="CObListEx">ObjId0024</member>
 			<member name="mapfile_current" type="sint32">0</member>
 			<member name="mapfile_listerr_ena" type="sint32">1</member>
-			<member name="mapfile_listerr_mode" type="sint32">0</member>
+			<member name="mapfile_listerr_mode" type="sint32">1</member>
 			<member name="mapfile_pre_select" type="sint32">0</member>
-			<member name="comm_params_saved" type="sint32">0</member>
+			<member name="comm_params_saved" type="sint32">1</member>
 			<member name="comm_state_saved" type="sint32">0</member>
 			<member name="comm_state_enabled" type="sint32">1</member>
+			<member name="comm_port" type="sint32">18</member>
+			<member name="comm_port_hint" type="string">COM_ALL</member>
+			<member name="comm_speed" type="sint32">115200</member>
+			<member name="comm_rs232_conn" type="string">RS232; port=COM0;speed=115200;</member>
+			<member name="comm_plugin_use" type="sint32">0</member>
+			<member name="comm_plugin_id" type="string"/>
+			<member name="comm_plugin_conn" type="string"></member>
 			<member name="cthread_boosting" type="sint32">0</member>
 			<member name="cthread_prio_base" type="sint32">3</member>
 			<member name="cthread_prio_boost" type="sint32">3</member>
